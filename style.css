@@ -1,0 +1,267 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hoja {
+    background-color: aqua;
+}
+
+.search {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.mihoja {
+    width: 5px;
+}
+.mititulo {
+    color: black;
+    text-align: left;
+    font-size: 40px;
+}
+
+.mising {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.misingin {
+    text-align: right;
+}
+
+main {
+    width: 90%;
+    margin: 0px auto;
+}
+
+
+
+/* Primera seccion sub titulos*/
+.detalle-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.detalle-1 ul {
+    display: flex;
+}
+
+.detalle-1 ul li {
+    padding: 20px;
+}
+
+/* Seccion De titulo*/
+
+.titulo {
+    width: 100%;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* contenedores */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+
+}
+
+/* Seccion contenedor 1*/
+.contenedor-1 {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.flecha {
+    background-color: aqua;
+}
+
+.lineaflecha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.dsc-caja {
+    background-color: aqua;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 100%;
+    font-size: 34px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.caja-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+
+}
+
+.imagen-caja-2 {
+    width: 90%;
+    height: 380px;
+
+}
+
+.caja-3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.img-caja-1 {
+    width: 100%;
+    height: 80%;
+
+}
+
+.img-caja-2 {
+    color: aliceblue;
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+
+
+}
+
+.imagen-caja-2:hover {
+
+    content: url('img/assets/succulents-2.jpg');
+
+}
+
+/* seccion de contenedores 3*/
+.contenedor-3 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.cajas-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 5px;
+    width: 100%;
+
+}
+
+.img-3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.plantas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+/* Pie de pagina*/
+footer {
+    display: flex;
+    border: 4px solid black;
+    width: 100%;
+    /* height: 90px; */
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+
+}
+
+.aceptar {
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 2px 1px rgba(6, 6, 12, 0.767);
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cookie-pie {
+    color: blue;
+    text-decoration: underline;
+}
